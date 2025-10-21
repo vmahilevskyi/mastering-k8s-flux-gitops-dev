@@ -16,4 +16,4 @@ spec:
   values:
     image:
       repository: ghcr.io/vmahilevskyi/mastering-k8s-kbot-src
-      tag: 1.0.0
+      tag: 1.1.0
