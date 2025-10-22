@@ -1,4 +1,3 @@
----
 apiVersion: helm.toolkit.fluxcd.io/v2
 kind: HelmRelease
 metadata:
@@ -16,4 +15,4 @@ spec:
   values:
     image:
       repository: ghcr.io/vmahilevskyi/mastering-k8s-kbot-src
-      tag: 1.1.0 # {"$imagepolicy": "flux-system:kbot-policy"}
+      tag: ghcr.io/vmahilevskyi/mastering-k8s-kbot-src:1.1.0 # {"$imagepolicy": "flux-system:kbot-policy"}
